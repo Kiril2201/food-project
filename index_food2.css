@@ -1,0 +1,135 @@
+.magic{
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+.header{
+  max-width: 100%;
+  height: 77px;
+  padding: 16px 388px 14px 13px;
+  background-color: rgba(151, 31, 103, 0.75) ;
+  max-width: 100%;
+}
+.circle{
+	border-radius: 50%;
+	width: 25px;
+  height: 25px;
+  padding: 9px 10px 10px 9px;
+  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #45ee45;
+}
+.square{
+  
+  height: 20px;
+  width: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+.title{
+  position: absolute;
+width: 345px;
+height: 47px;
+left: 475px;
+top: 12px;
+
+font-family: Permanent Marker;
+
+font-size: 12px;
+line-height: 17px;
+display: flex;
+justify-content: center;
+text-align: center;
+
+color: #FFFFFF;
+
+border: 1px solid #000000;
+}
+.up-title{
+
+  display: flex;
+  justify-content: center;
+  
+}
+.up-names{
+  display:flex ;
+  justify-content: space-around;
+  margin-top: 15px;
+
+}
+.up-photos{
+  display:flex ;
+  justify-content: space-around;
+  
+
+}
+.up-left-photo{
+  height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  border-radius: 20%;
+}
+.up-right-photo{
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border-radius: 20%;
+}
+.left-up-name{
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.center{
+	
+  height: 1600px; 
+  background-color: #5A0068;
+  max-width: 100%;
+}
+.center-title{
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+
+}
+.center-names{
+display:flex ;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.center-photos{
+  display:flex ;
+  justify-content: space-around;
+  margin-top: 15px;
+  
+
+}
+
+.center-left-photo{
+  height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  border-radius: 20%;
+}
+.center-photo-word
+{
+  display: flex;
+  justify-content: center;
+  position: relative;
+    top: 150px;
+}
+.center-right-photo{
+  height: 300px;
+  width: 340px;
+  border-radius: 20%;
+}
