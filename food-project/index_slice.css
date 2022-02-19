@@ -53,7 +53,7 @@
 .right-down{
 	position: absolute;
 	bottom: -10px;
-	right: 10px;
+	right: -10px;
 	height: 55px;
 	width: 60px;
 	background-color: violet;
